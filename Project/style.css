@@ -1,0 +1,289 @@
+/* styles.css */
+
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+  /* Set background image */
+  background-image: url('fun2.jpg'); /* Assuming fun.png is in the same directory as styles.css */
+  /* Adjust background properties */
+  background-repeat: no-repeat;
+  background-size: cover; /* Adjust as needed */
+  /* Optionally, you can set additional background properties */
+  /* background-position: center center; */
+  /* background-attachment: fixed; */
+  /* background-color: #f0f0f0; */ /* Fallback color */
+}
+
+
+/* header {
+  background-image: url('header2.jpg');
+  background-size: cover;
+  background-position: center;
+  background-color: #ADD8E6;
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  justify-content: center; 
+   align-items: center; 
+}
+
+h1 {
+  margin: 0;
+} */
+/* Add styles for the h2 element */
+/* h2 {
+  text-align: center; /* Center-align the text */
+  /* color: #b6b0a5; Set the text color to orange */
+ 
+
+/* nav {
+  display: flex;
+  align-items: right; /* Align items vertically */
+  /* justify-content: right; /* Align items to the right */
+ 
+
+nav button {
+  margin-left: 10px; /* Add space between buttons */
+  margin-top: 10px;
+  padding: 5px 10px;
+  background-color: #e4f2f200
+  ;
+  color: #e4f2f2;
+  border: none;
+  cursor: pointer;
+  font-size: 30px; /* Set the font size to 16 pixels */
+  }
+  
+ 
+
+nav {
+  display: flex;
+  flex-direction: column; /* Arrange items vertically */
+  align-items: flex-end; /* Align items to the left */
+  /* justify-content: flex-start; Align items to the bottom */
+  gap: 20px; /* Add space between buttons */
+}
+
+
+/* nav button:hover {
+  background-color: #eff0e0;
+} */
+
+nav button img {
+  max-width: 0%; /* Ensure the image doesn't exceed the button width */
+  max-height: 0%; /* Ensure the image doesn't exceed the button height */
+   object-fit: cover;
+}
+
+
+/* nav {
+  background-color: #666;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+} */
+
+ main {
+  padding: 500px;
+}
+ 
+ /* main {
+  padding-top: 200px; /* Add padding from the top */
+  /* padding-left: 20px; /* Add padding from the left */
+  /* display: flex; /* Use flexbox layout */
+  /* flex-wrap: wrap; Allow content to wrap to the next line */ 
+
+main > * {
+  flex: 1; /* Each item takes up equal space */
+  margin-right: 200px; /* Add margin between items */
+}
+
+main {
+  padding: 20px;
+}
+pre {
+  background-color: #f4f4f4;
+  padding: 10px;
+  border-radius: 5px;
+  white-space: pre-wrap;
+}
+
+/* 
+
+@keyframes changeText {
+ 
+  25% {
+    opacity: 1;
+  }
+  
+  50% {
+    opacity: 1;
+  }
+  
+  100% {
+    opacity: 0;
+  }
+} */
+
+
+code {
+  color:white; /* Transparent white background */
+background-color: #e4f2f200;
+}
+
+
+pre {
+  color: white; /* Text color */
+  background-color: #e4f2f200; /* Background color */
+}
+
+
+.highlight {
+  color: red ; /* Change the color to any color you want */
+  font-weight: bold; /* Optionally, make the text bold */
+}
+
+
+
+.name {
+  color: white ; /* Change the color to any color you want */
+  font-weight: bold; /* Optionally, make the text bold */
+  font-size: 56px;
+}
+/* .container {
+  display: flex;
+  
+} */
+
+/* .left, .right {
+  flex: 1;
+  height: 100vh; /* Adjust height as needed */
+
+
+.left {
+  background-color: #f0f0f0; /* Left section background color */
+  background-color: rgba(0, 0, 0, 0.5); /* Adjust the RGBA values to change the color and opacity */
+  padding: 20px; /* Add padding for better visibility */
+  border-radius: 10px;
+  position: fixed;
+  bottom: 40px;
+  left: 0;
+}
+
+/* .right {
+  background-color: #eaeaea; /* Right section background color */
+
+
+
+.left {
+  width: 45%; /* Adjust the width of the left block */
+  height: 250px; /* Adjust the height of the left block */
+}
+
+/* .right {
+  width: 45%; /* Adjust the width of the right block */
+   /* height: 250px;
+
+} */
+
+   /* .right {
+    background-color: #f0f0f0; /* Left section background color */
+    /* background-color: rgba(0, 0, 0, 0.5); /* Adjust the RGBA values to change the color and opacity */
+    /* padding: 20px; /* Add padding for better visibility */
+    /* border-radius: 10px;
+    position: fixed;
+    bottom: 40px;
+    right: 0; */
+
+    /* CSS to style the container for the GIF */
+/* CSS to style the container for the GIF */
+.gif-container {
+  position: fixed;
+  top: 150px; /* Adjust as needed */
+  left: 50px; /* Position the GIF on the extreme left side */
+  width: 100px; /* Adjust width as needed */
+  height: auto; /* Maintain aspect ratio */
+  /* Adjust other styles as needed */
+}
+
+
+/* Additional styles for the GIF */
+.gif-container img {
+  width: 12%; /* Ensure the GIF fills the container */
+  height: 12%; /* Maintain aspect ratio */
+}
+
+/* Snake game styles */
+/* .snake-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.snake {
+  position: absolute;
+  background-color: green;
+  width: 20px;
+  height: 20px;
+} */
+
+/* Add more styles as needed */
+/* Snake border styles */
+
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  /* background-color: #366a60; */
+  /* color: white; */
+  text-align: center;
+  padding: 0px;
+  font-size: 18px;
+ 
+}
+#footer {
+  /* background: linear-gradient(45deg,#00b7c7 0,#4d0ce8 100%); */
+  height: 100px;
+  min-height: 100px;
+  color: #f2f2f2
+}
+
+
+
+@media only screen and (max-width: 100px) {
+  #footer .section-wrapper {
+      padding:30px 0
+  }
+}
+
+#footer .soc {
+  display: block;
+  font-size: 0;
+  list-style: none;
+  margin: 0 auto;
+  padding: 0;
+  text-align: center
+}
+
+#footer .soc .soc-item {
+  display: inline-block;
+  margin: 1rem .5rem
+}
+
+
+#footer .soc .soc-item a {
+  display: block;
+  position: relative;
+  color: #fff;
+  width: 2.5rem;
+  height: 2.5rem;
+  position: relative
+}
