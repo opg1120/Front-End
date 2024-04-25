@@ -1,0 +1,8 @@
+.techstack-page {
+    background-image: url('new6.png'); /* Assuming fun.png is in the same directory as styles.css */
+    /* Adjust background properties */
+    background-repeat: repeat;
+    background-size: cover; /* Adjust as needed */
+    background-position: top;
+}
+
