@@ -1,0 +1,99 @@
+/* Reset default margin and padding */
+body, h1, h2, p, ul, li, form {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Set default font family and color */
+  body {
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+  
+  /* Style the header */
+  
+  /* Style the main content */
+  main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+  }
+  
+  /* Style the sections */
+  section {
+    margin-bottom: 20px;
+  }
+  
+  /* Style the headings */
+  h2 {
+    color: #000000;
+    margin-bottom: 10px;
+  }
+  
+  /* Style the contact information */
+  ul {
+    list-style-type: none;
+    margin-left: 0;
+  }
+  
+  /* Style the contact form */
+  form {
+        background-color: rgba(255, 255, 255, 0.5); /* Adjust the RGBA values to set the background color and opacity */
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        background-image: url('work.gif');
+        background-size: cover !important;
+    }
+    
+  
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color: rgba(255, 255, 255, 0.5); 
+  }
+  
+  textarea {
+
+    width: 100%; /* Adjust the width as needed */
+    height: 200px;
+    resize: none;
+    background-color: rgba(255, 255, 255, 0.5)
+
+
+  }
+  button[type="submit"] {
+    background-color: rgba(255, 255, 255, 0.5);
+    color: rgb(113, 48, 48);
+    border: skyblue;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.9s ease;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
+  .contact-page {
+    background-image: url('new6.png'); /* Assuming fun.png is in the same directory as styles.css */
+    /* Adjust background properties */
+    background-repeat: repeat;
+    background-size: cover; /* Adjust as needed */
+    background-position: top;
+}
+
+
+
