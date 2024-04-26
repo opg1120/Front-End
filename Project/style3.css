@@ -6,3 +6,201 @@
     background-position: top;
 }
 
+
+  body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+
+  .container {
+    display: flex;
+
+   padding-bottom: 100px;
+    width: 1300px;
+    height: 200px;
+
+
+
+
+  }
+  
+  .box {
+    width: calc(50% - 5px); /* 50% width with space between */
+    /* 50% height with space between */
+    background-color: rgba(0, 0, 0, 0.1);
+    height: 100px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 5px;
+  }
+ 
+
+  .box:nth-child(1) {
+    background-color: #f0f0f0; /* Box 1 background color */
+    overflow: auto;
+    padding: 20px;
+    height: 300px;
+    font-size: larger;
+    
+    
+  }
+  
+  .box {
+    background-color: #ffcccc; /* Box background color */
+    padding: 20px;
+    height: 300px;
+    position: relative; /* Ensure proper positioning for absolutely positioned elements */
+    overflow: hidden; /* Hide overflow text */
+  }
+  
+  .dropping-text {
+    position: absolute; /* Position the text absolutely */
+    left: 50%; /* Center the text horizontally */
+    transform: translateX(-50%); /* Adjust horizontal alignment */
+    opacity: 0; /* Initially hide the text */
+    animation: dropText 10s linear infinite; /* Define the animation */
+font-size: larger; 
+  }
+  
+  /* Define keyframe animation for each word */
+  .dropping-text:nth-child(1) { animation-delay: 2s; }
+  .dropping-text:nth-child(2) { animation-delay: 3s; }
+  .dropping-text:nth-child(3) { animation-delay: 4s; }
+  .dropping-text:nth-child(4) { animation-delay: 5s; }
+  .dropping-text:nth-child(5) { animation-delay: 6s; }
+  .dropping-text:nth-child(6) { animation-delay: 7s; }
+  .dropping-text:nth-child(7) { animation-delay: 8s; }
+
+
+  @keyframes dropText {
+    0% { opacity: 0; top: -50px; } 
+    
+    50% { opacity: 1; top: 100%; } 
+    /* Initial position outside the box */
+    100% { opacity: 1; top: 100%; } /* Final position at the bottom of the box */
+  }
+  
+  
+  .box:nth-child(3) {
+    background-color: #ccffcc; /* Box 3 background color */
+  padding :20px;
+  overflow: auto;
+  height: 300px;
+  font-size: larger;
+    /* Example of custom width */
+    
+    
+  }  
+  .box:nth-child(4) {
+    background-color: #ccccff; /* Box 4 background color */
+    height: 300px;
+    padding :20px;
+    
+  }
+  
+
+  .button-85 {
+    /* Adjust padding as needed */
+    margin-top: 20px;
+    margin-bottom: 10px; /* Add space between buttons */
+    padding: 0.3em 2em;
+    margin-left: 0px;
+    border: none;
+    outline: none;
+    color: rgb(255, 255, 255);
+    background: #111;
+    cursor: pointer;
+    position: absolute; /* Position the button absolutely */
+    top: 0; /* Align to the top */
+    left: 5pt; /* Align to the left */
+    z-index: 0;
+    border-radius: 10px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+  
+  
+  .button-85:before {
+    content: "";
+    background: linear-gradient(
+      45deg,
+      #ff0000,
+      #ff7300,
+      #fffb00,
+      #48ff00,
+      #00ffd5,
+      #002bff,
+      #7a00ff,
+      #ff00c8,
+      #ff0000
+    );
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(2px);
+    -webkit-filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing-button-85 20s linear infinite;
+    transition: opacity 0.3s ease-in-out;
+    border-radius: 10px;
+  }
+  
+  @keyframes glowing-button-85 {
+    0% {
+      background-position: 100% 0;
+    }
+    50% {
+      background-position: 400% 0;
+    }
+    100% {
+      background-position: 100% 0;
+    }
+  }
+  
+  .button-85:after {
+    z-index: -1;
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #0000007F;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+  }
+
+.dropping-tex {
+    position: absolute; /* Position the text absolutely */
+    left: 50%; /* Center the text horizontally */
+    transform: translateX(-50%); /* Adjust horizontal alignment */
+    opacity: 0; /* Initially hide the text */
+    animation: dropText 10s linear infinite; /* Define the animation */
+font-size: larger; 
+  }
+  
+  /* Define keyframe animation for each word */
+  .dropping-tex:nth-child(1) { animation-delay: 2s; }
+  .dropping-tex:nth-child(2) { animation-delay: 3s; }
+  .dropping-tex:nth-child(3) { animation-delay: 4s; }
+  .dropping-tex:nth-child(4) { animation-delay: 5s; }
+  .dropping-tex:nth-child(5) { animation-delay: 6s; }
+  .dropping-tex:nth-child(6) { animation-delay: 7s; }
+  
+
+ 
+  
+  
+
+
+  
