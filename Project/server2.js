@@ -1,7 +1,7 @@
 // Import required modules
 const express = require("express");
 const path = require("path");
-const projectPath = "C:/Users/user1/OneDrive/Documents/Github_Repos/WebSite/Project";
+const projectPath = "/Users/opindersinghgill/Downloads/Project";
 // Create an Express application
 const app = express();
 
